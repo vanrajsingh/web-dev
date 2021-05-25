@@ -1,0 +1,27 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a test directory",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanrajsingh/web-dev.git"
+  },
+  "author": "Vanraj Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanrajsingh/web-dev/issues"
+  },
+  "homepage": "https://github.com/vanrajsingh/web-dev#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "create-react-app": "^1.5.2"
+  }
+}
